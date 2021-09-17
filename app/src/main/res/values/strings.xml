@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">EduPract</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at lacus ex. Fusce quis volutpat diam. Mauris ac neque ac magna iaculis ultricies. Phasellus mollis nibh erat, eu suscipit purus placerat quis. Etiam sodales aliquam diam eget vehicula. Proin hendrerit est ac ipsum auctor, sit amet tristique ligula maximus. Integer vel orci id ligula placerat ornare. Aliquam eu orci eget neque ultricies convallis. Nam porttitor pharetra euismod. Aenean ultricies ligula venenatis magna mollis mattis. Sed sed odio sed libero dapibus fermentum. Vivamus ut cursus augue, eget suscipit ante. Sed fermentum sem porttitor, mattis est vulputate, mollis libero. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget sem maximus, tempor turpis quis, lacinia turpis.</string>
+
+    <string-array name="fire_txts">
+        <item>
+            Some safety Tips tips while in Kitchen :
+            1.Never leave your range or cooktop unattended while cooking.
+            2.Wear short, close-fitting or tightly rolled sleeves.
+            3.Avoid overloading electrical outlets with too many kitchen appliances and ensure electrical cords are not frayed, cracked or damaged.
+            4.Keep dish towels, pot holders, and paper towels away from the stove.
+            5.Never throw hot grease in the garbage as it can ignite combustible materials.
+            6.Do not store food or other items in your oven.
+        </item>
+        <item>What to do if a fire starts in your oven ?
+        If there is an oven fire, turn off the heat and keep the door closed to prevent flames from burning you and your clothing. Make sure to have the oven serviced before you use it again.
+        </item>
+        <item>
+            Safety considerations for cooking with oil:
+            Always stay in the kitchen when frying on the stovetop.
+            If you see wisps of smoke or the oil smells, immediately turn off the burner and/or carefully remove the pan from the burner. Smoke is a danger sign that the oil is too hot.
+            Heat the oil slowly to the temperature you need for frying or sautéing.
+            Add food gently to the pot or pan so the oil does not splatter.
+            Always cook with a lid beside your pan. If you have a fire, slide the lid over the pan and turn off the burner. Do not remove the cover because the fire could start again. Let the pan cool for a long time. Never throw water on the fire.
+            If the fire does not go out or you don’t feel comfortable sliding a lid over the pan, get everyone out of your home. Call the fire department immediately.
+        </item>
+        <item>
+            Grease Fires :
+            If an oil or grease fire does break out, the first thing you should do is turn the heat source off and put a lid on the pan to smother the fire. If you’re unable to do this safely, toss baking soda on the flames or spray the fire with a fire extinguisher. Never use water to put out grease or oil fires. Doing so can cause the oil to spatter and spread the fire. If the fire can’t be put out quickly and safely, leave your house immediately and call 911.
+        </item>
+        <item>
+            Child Safety in the Kitchen :
+            Designate at least three square feet around the stovetop and oven into which children are not allowed to enter.
+            Always turn pot and panhandles so they don’t hang off the counter or stovetop. This helps prevent a child from accidentally bumping into or pulling down a hot pot or pan.
+            Store snacks or anything else a child may be attracted to far away from the stovetop and oven.
+            Do not leave potholders, towels or tablecloths hanging from an oven door handle or countertops as infants, toddlers and pets may pull on them.
+            Teach children which appliances get hot and why they should never touch them. This includes not touching any electrical wires.
+            Remind children that if a fire breaks out in the kitchen they should get an adult or call 911 and never attempt to put the fire out with water.
+        </item>
+    </string-array>
+</resources>

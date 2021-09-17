@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/aclonica"
+        android:text=""
+        android:textColor="#C61818"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/rect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="-5dp"
+        android:layout_marginLeft="-5dp"
+        android:layout_marginTop="15dp"
+        app:srcCompat="@drawable/rect2" />
+
+    <ImageView
+        android:id="@+id/rect2"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/rect" />
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rect2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-60dp"
+        android:background="@drawable/click" />
+
+    <TextView
+        android:id="@+id/loginTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rect2"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="-45dp"
+        android:text="Login"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/float1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/rect2"
+        android:layout_alignLeft="@+id/rect2"
+        android:layout_alignTop="@+id/rect2"
+        android:layout_alignEnd="@+id/rect2"
+        android:layout_alignRight="@+id/rect2"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="-7dp"
+        android:layout_marginRight="-7dp"
+        app:hintTextAppearance="@style/FloatingHintStyle">
+
+        <EditText
+            android:id="@+id/emailTxt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/rect2"
+            android:layout_alignLeft="@+id/rect2"
+            android:layout_alignTop="@+id/rect2"
+            android:layout_alignEnd="@+id/rect2"
+            android:layout_alignRight="@+id/rect2"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="112dp"
+            android:layout_marginRight="112dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:hint="Enter Email Id"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorPrimary" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/float2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/float1"
+        android:layout_alignStart="@+id/rect2"
+        android:layout_alignLeft="@+id/rect2"
+        android:layout_alignEnd="@+id/rect2"
+        android:layout_alignRight="@+id/rect2"
+        android:layout_marginStart="7dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="-5dp"
+        android:layout_marginRight="-5dp"
+        app:hintTextAppearance="@style/FloatingHintStyle">
+
+        <EditText
+            android:id="@+id/passwordTxt"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/float1"
+            android:layout_alignStart="@+id/rect2"
+            android:layout_alignLeft="@+id/rect2"
+            android:layout_alignEnd="@+id/rect2"
+            android:layout_alignRight="@+id/rect2"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="23dp"
+            android:layout_marginEnd="110dp"
+            android:layout_marginRight="110dp"
+            android:ems="10"
+            android:fontFamily="@font/acme"
+            android:hint="Enter password"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+</RelativeLayout>
